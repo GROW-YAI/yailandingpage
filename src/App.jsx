@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import LandingPage from './LandingPage'
+import BoafoWidgetInitializer from './components/BoafoWidgetInitializer'
 
 function App() {
   const router = createBrowserRouter([
@@ -11,7 +12,10 @@ function App() {
     }
   ])
   return (
-    <RouterProvider router={router}/>
+    <>
+      <BoafoWidgetInitializer />
+      <RouterProvider router={router}/>
+    </>
   )
 }
 
