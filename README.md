@@ -1,8 +1,8 @@
-# Yail Landing Page
+# kingsway fridge barrel
 
 ## Project Overview
 
-Yail is a modern, responsive landing page website designed to showcase a premium fish product. The site serves as a marketing platform that highlights the product's quality, sourcing, and value to potential customers.
+kingsway fridge barrel is a modern, responsive page website designed to showcase a premium fish product. The site serves as a marketing platform that highlights the product's quality, sourcing, and value to potential customers.
 
 ### Purpose
 The website acts as the primary digital presence for the Yail brand, providing visitors with comprehensive information about the product, its origins, and how to purchase it. The landing page is crafted to engage visitors with compelling visuals and clear calls-to-action.
