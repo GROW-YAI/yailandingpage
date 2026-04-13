@@ -77,7 +77,7 @@ const ContactForm = () => {
         onSubmit={handleSubmit}
       >
         <div className="mb-4">
-          <label className="block text-gray-700">Name</label>
+          <label className="block text-gray-700 text-left">Name</label>
           <input
             type="text"
             name="name"
@@ -88,7 +88,7 @@ const ContactForm = () => {
           {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700">Email</label>
+          <label className="block text-gray-700 text-left">Email</label>
           <input
             type="email"
             name="email"
@@ -99,7 +99,7 @@ const ContactForm = () => {
           {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700">Subject</label>
+          <label className="block text-gray-700 text-left">Subject</label>
           <input
             type="text"
             name="subject"
@@ -112,7 +112,7 @@ const ContactForm = () => {
           )}
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700">Message</label>
+          <label className="block text-gray-700 text-left">Message</label>
           <textarea
             name="message"
             value={formData.message}
