@@ -36,9 +36,18 @@ const AboutInnovator = () => {
      
       {/* about innovator text */}
       <div className='flex flex-col pt-4 lg:py-24  text-black text-left'>
-      <p className='font-semibold text-[#ffe000] text-center mb-4 text-xl '>MEET THE INNOVATOR</p>
-      <p className='w-[80%] mx-auto'>Ali Davis Desmond, an innovative problem-solver from New Takoradi, Western Region, is dedicated to addressing challenges in the fishing industry. Passionate about sustainability and economic empowerment, he created this solution to help fisher folks maximize their harvests while reducing environmental waste.</p>
-      <p className='w-[80%] mx-auto'>Ali schooled in the St. Johns secondary school where he studied General Science. He went ahead to further his education in KNUST, and graduated with a bachelor's degree in Agriculture. His hobbies include listening to music and observing animals in nature</p>
+<h2 className='font-semibold text-[#ffe000] text-center mb-6 text-xl md:text-2xl uppercase tracking-wide'>Meet the Innovator</h2>
+      <div className='max-w-2xl mx-auto space-y-4 text-left leading-relaxed'>
+        <p>Ali Davis Desmond, an innovative problem-solver from New Takoradi, Western Region, is dedicated to addressing challenges in the fishing industry. Passionate about sustainability and economic empowerment, he created this solution to help fisher folks maximize their harvests while reducing environmental waste.</p>
+        
+        <div>
+          <p className='font-medium mb-2'>Education:</p>
+          <p>• Attended St. John's Secondary School, studied General Science</p>
+          <p>• Graduated with a Bachelor's degree in Agriculture from KNUST</p>
+        </div>
+        
+        <p className='italic'>Hobbies: Listening to music and observing animals in nature.</p>
+      </div>
       
       </div>
     </section>

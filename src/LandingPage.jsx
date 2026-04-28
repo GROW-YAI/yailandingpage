@@ -10,7 +10,7 @@ const LandingPage = () => {
   return (
     <div className='flex flex-col h-auto'  >
         <Navbar/>
-        <div className='pt-16 '>
+        <div className='pt-44 lg:pt-40 '>
         <HeroSection/>
         <AboutProduct/>
         <AboutInnovator/>

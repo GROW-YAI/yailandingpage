@@ -34,8 +34,8 @@ const ProductShowcase = () => {
           {/* Feature Tabs */}
           <div className='flex justify-center items-center w-full'>
             <div className='bg-white py-6 rounded-lg w-full px-6'>
-              <p className='font-bold mb-2'>Energy Efficient</p>
-              <p>Consumes much less electricity than the regular refrigerator.</p>
+              <p className='font-bold mb-2 text-left'>Energy Efficient</p>
+              <p className='text-left'>Consumes much less electricity than the regular refrigerator.</p>
             </div>
             <div className='w-14 h-14 bg-white rounded-full ml-[-1.5em] flex justify-center items-center'>
               <img src={ecg} alt="" className='h-10 object-cover' />
@@ -44,8 +44,8 @@ const ProductShowcase = () => {
 
           <div className='flex justify-center items-center w-full mt-12'>
             <div className='bg-white py-6 rounded-lg w-full px-6'>
-              <p className='font-bold mb-2'>Reusability</p>
-              <p>Reducing waste by reusability</p>
+              <p className='font-bold mb-2 text-left'>Reusability</p>
+              <p className='text-left'>Reducing waste by reusability</p>
             </div>
             <div className='w-14 h-14 bg-white rounded-full ml-[-1.5em] flex justify-center items-center'>
               <img src={reuse} alt="" className='h-10 object-cover' />
@@ -72,8 +72,8 @@ const ProductShowcase = () => {
               <img src={env} alt="" className='h-10 object-cover' />
             </div>
             <div className='bg-white py-6 rounded-lg w-full px-6'>
-              <p className='font-bold mb-2'>Eco-Friendly</p>
-              <p>Designed with sustainable materials and minimal environmental impact.</p>
+              <p className='font-bold mb-2 text-left'>Eco-Friendly</p>
+              <p className='text-left'>Designed with sustainable materials and minimal environmental impact.</p>
             </div>
           </div>
 
@@ -82,8 +82,8 @@ const ProductShowcase = () => {
               <img src={cost} alt="" className='h-10 object-cover' />
             </div>
             <div className='bg-white py-6 rounded-lg w-full px-6'>
-              <p className='font-bold mb-2'>Cost Effective</p>
-              <p>Affordable and suitable for small-scale commercial use.</p>
+              <p className='font-bold mb-2 text-left'>Cost Effective</p>
+              <p className='text-left'>Affordable and suitable for small-scale commercial use.</p>
             </div>
           </div>
         </div>
